@@ -1,0 +1,72 @@
+
+/*for tablet*/
+@media only screen and (max-width: 800px){
+	header .search-area{
+		display: none;
+	}
+	header nav{
+		top: 0;
+		background: #dedede;
+		position: fixed;
+		width: 100%;
+		left: 100%;
+		transition: .5s;
+		height: 100vh;
+		z-index: 10;
+		display: block;
+	}
+	header nav ul{
+		display: flex;
+		flex-direction: column;
+		padding: 1rem;
+	}
+	header nav li{
+		margin: 1rem 0;
+	}
+	header nav .close-btn, .open-btn{
+		display: block;
+	}
+	header .sidenav{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.breadcrumb.container{
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+	}
+	/*end of header*/
+
+	main > .row{
+		display: grid;
+	}
+	main .left-content{
+		width: 100%;
+	}
+	/*end of main*/
+
+	footer .social-media{
+		align-items: start;
+	}
+	footer .social-media ul{
+		justify-content: start;
+	}
+	footer .project{
+		margin: 1rem 0;
+	}
+	footer .row{
+		display: grid;
+	}
+	footer .footer-logo{
+		padding-bottom: 2rem;
+	}
+}
+
+/*for mobile*/
+@media only screen and (max-width: 400px){
+	#email-sender input, select, textarea,
+	#email-sender .btn{
+		width: 100%;
+	}
+}

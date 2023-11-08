@@ -1,0 +1,37 @@
+.text-secondary *{
+	color: #6c757d !important;
+}
+.col-sm{
+	padding-right: 5px !important;
+	padding-left: 5px !important;
+	padding: 5px;
+}
+
+main .navigation-btn ul{
+	margin-bottom: 0 !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+	background-color: var(--font-color) !important;
+}
+.col-sm-4{
+	max-width: none !important;
+}
+header .alert{
+	position: absolute;
+	top: -10%;
+	transition: .5s;
+	left: 5%;
+	right: 5%;
+	z-index: 10;
+}
+.modal-dialog{
+	position: fixed !important;
+	top: -80%;
+	left: 0;
+	right: 0;
+	
+	z-index: 20;
+}
+.modal-content{
+	background: #dedede !important;
+}

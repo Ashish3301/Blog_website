@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>PixelPluse</title>
+
+	<!--font-awesome | icon-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+	<!--style | fonts-->
+	<link rel="stylesheet" type="text/css" href="blog.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="media-query.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@300;400;500;600&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- google search app -->
+	<script type="application/Id+json">
+	{
+		"@context":"https://schema.org/",
+		"@type":"WebSite",
+		"name": "Full WebSite Name", 
+		"alernateName": "sort",
+		"url": "urlherer"
+	}
+	</script>
+
+</head>
+<body>
+	<div id="email-sender">
+		<i class="fa-solid fa-x email-close"></i>
+		<div class="email-form">
+			<h1>Send email to me</h1>
+			<form action="https://formspree.io/f/moqopaey" method="POST" >
+				<input type="text" name="Name" placeholder="Your Name" required>
+				<input type="email" name="Email" placeholder="Your Email" required>
+				<textarea name="Message" placeholder="Message" required></textarea>
+				<div class="btn"><button>Send</button></div>
+			</form>
+		</div>
+	</div>
+	<header>
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Login here..</h5>
+				</div>
+				<div class="modal-body">
+					<div class="login-content">
+						<form method="POST" onsubmit="sub()">
+							<div class="form-group">
+								<label for="exampleInputEmail1">Username</label>
+								<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
+								<small id="emailHelp" class="form-text text-muted">Enter your name, in which you are comfortable</small>
+							</div>
+							<div class="form-group">
+								<label for="exampleInputPassword1">Password</label>
+								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="submit" class="Login-btn btn btn-primary">Log-in</button>
+					<button type="button" class="login-close-btn btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		<div class="alert alert-info" role="alert">
+			No messages for you—<a href="">check it out!</a>
+		</div>
+		<div class="top-navbar">
+			<a href="..\my portfolio\portfolio1.html" class="logo">PixelPluse</a>
+			<div class="search-area">
+				<i class="bi bi-search"></i>
+				<input type="text" placeholder="Search...">
+			</div>
+			<div class="sidenav">
+				<i class="login-open-btn bi bi-person"></i>
+				<i class="inbox-message bi bi-inboxes"></i>
+				<i class="open-btn fa-solid fa-bars"></i>
+			</div>
+		</div>
+
+		<nav>
+			<ul>
+				<i class="close-btn fa-solid fa-x"></i>
+				<li><a href="..\my portfolio\portfolio1.html">Home</a></li>
+				<li><a href="..\my portfolio\portfolio1.html">About</a></li>
+				<li><a href="..\my portfolio\portfolio1.html">Porjects</a></li>
+				<li><a href="..\my portfolio\portfolio1.html">Portfolio</a></li>
+				<li><a href="..\my portfolio\portfolio1.html">Community</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- end of header -->
+
+	<div class="breadcrumb-nav">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb container">
+				<a href="..\my portfolio\portfolio1.html" class="blog-logo logo">PixelPluse Blog</a>
+				<ul>
+					<li class="breadcrumb-item"><a href="..\my portfolio\portfolio1.html">Home</a></li>
+					<li class="breadcrumb-item text-secondary "><a href="#">Blog</a></li>
+				</ul>
+			</ol>
+		</nav>
+	</div>
+	<!-- end of breadcrumb -->
+
+	<main class="container container-main">
+		<div class="row">
+			<div class="col-sm-4 left-content">
+
+				<div class="search-box">
+					<input type="search" placeholder='Search blog by categories...'>
+					<i class="bi bi-search"></i>
+				</div>
+
+				<div class="categories">
+					<ul>
+						<h3>Categories</h3>
+						<li><a href="#pills-home">Culture</a></li>
+						<li><a href="#pills-home">Creative</a></li>
+						<li><a href="#pills-home">Food</a></li>
+						<li><a href="#pills-home">Humor</a></li>
+						<li><a href="#pills-home">Music</a></li>
+					</ul>
+				</div>
+
+				<div class="top-post">
+					<ol>
+						<h3>Top Comments</h3>
+						<ul></ul>
+						
+					</ol>
+				</div>
+
+				<div class="post-content">
+					<div class="post">
+						<textarea placeholder="write here..."></textarea>
+						<input type="text" placeholder="write your name">
+						<button id="post-btn">Post</button>
+					</div>
+				</div>
+
+			</div>
+			<div class="col right-content tab-content" id="pills-tabContent">
+
+				<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+					<div class="text-content">
+						<div class="contents">
+							<img src="https://img.traveltriangle.com/blog/wp-content/uploads/2020/02/cover-image-of-Valleys-In-Kashmir_18th-jan.jpg">
+							<div class="text">
+								<small>Travel</small>
+								<h6>
+									<a href="https://www.tripadvisor.in/Tourism-g297622-Kashmir_Jammu_and_Kashmir-Vacations.html">You will now get to enjoy Kashmir’s gorgeous landscapes.</a>
+								</h6>
+								<p>
+									As tourism in the Kashmir valley surges to unprecedented heights..
+								</p>
+							</div>
+						</div>
+						<div class="contents">
+							<img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=400">
+							<div class="text">
+								<small>Food</small>
+								<h6>
+									<a href="https://blog.pancakeswap.finance/">See popular recipes compared and analyzed side-by-side.</a>
+								</h6>
+								<p>
+									Browse my collection of unique celebration cakes, healthy everyday recipes, vegan baking recipes and more!
+								</p>
+							</div>
+						</div>
+						<div class="contents">
+							<img src="https://media.istockphoto.com/id/1280427635/vector/people-connect-puzzles-cartoon-happy-young-team-of-characters-connecting-puzzle-pieces.jpg?s=612x612&w=0&k=20&c=cZ4S5gMZJzyLmphkSyRQNGsrmT3RqUWtID0ai6jHyv0=">
+							<div class="text">
+								<small>Creative</small>
+								<h6>
+									<a href="https://www.thenovelry.com/blog/unreliable-narrator">Three Golden Rules for Writing an Unreliable Narrato.</a>
+								</h6>
+								<p>
+									I’m sure we can all remember the first time we came across an unreliable narrator in a novel...
+								</p>
+							</div>
+						</div>
+						<div class="contents">
+							<img src="https://media.istockphoto.com/id/1280339057/photo/young-woman-relaxing-at-home-and-listening-music.jpg?s=612x612&w=0&k=20&c=mquca3mlGfnvqEx-YoXKwMnsGIbjLtsFyO1YM1p_u9o=">
+							<div class="text">
+								<small>Music</small>
+								<h6>
+									<a href="https://www.daysoftheyear.com/days/music-day/">World Music Day</a>
+								</h6>
+								<p>
+									From Beethoven to Taylor Swift, there’s music for everyone. Revisit your old favorites or discover new artists from different cultures on World Music Day.
+								</p>
+							</div>
+						</div>
+						<div class="contents">
+							<img src="https://media.istockphoto.com/id/700702502/photo/girlfriends-in-the-city.jpg?s=612x612&w=0&k=20&c=AM2hwTJCwyO4mDRU_mj97_2aAy55T5eGVu2T6gf6gwE=">
+							<div class="text">
+								<small>Humor, Culture</small>
+								<h6>
+									<a href="https://www.taleof2backpackers.com/interesting-cultures-around-the-world/">
+										Cultures Around the World with Unique Traditions.
+									</a>
+								</h6>
+								<p>
+									One of the most rewarding aspects of travelling for us is that we get to meet various people. And while we meet them...
+								</p>
+							</div>
+						</div>
+						<div class="contents">
+							<img src="https://media.istockphoto.com/id/502157943/photo/better-safe-than-sorry.jpg?s=612x612&w=0&k=20&c=FT_ZFX3egV-A8RZODS5LMxB4tQ2n3tWXineMbB1265c=">
+							<div class="text">
+								<small>Travel, Culture</small>
+								<h6>
+									<a href="https://culturetourist.com/">
+										History of travelling. How people start travelling.
+									</a>
+								</h6>
+								<p>
+									Sicily is one of the most unique and heterogeneous places in Europe. The island is home to fantastic landscapes, beautiful seaside...
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+					<div class="text-content">
+						<div class="contents">
+							<img src="https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=400">
+							<div class="text">
+								<small>Travel</small>
+								<h6>
+									<a href="https://www.enchantingtravels.com/travel-blog/top-10-travel-blogs-india/">
+										Top 10 travel blog for INDIA.</a>
+									</h6>
+									<p>
+										Searching far and wide across the web, we reviewed dozens of blogs, and here’s our list of the top 10 travel blogs of India.
+									</p>
+								</div>
+							</div>
+							<div class="contents">
+								<img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D">
+								<div class="text">
+									<small>Food</small>
+									<h6>
+										<a href="https://buckspizza.com/10-blogs-for-pizza-lovers/">Top 10 blog for Pizza lover.</a>
+									</h6>
+									<p>
+										Let’s talk about pizza. If you’re a pizza lover, chances are the phrase “too much pie” seldom crosses your lips, and happily...
+									</p>
+								</div>
+							</div>
+							<div class="contents">
+								<img src="https://images.unsplash.com/photo-1518718981003-1e546135dc25?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWFuJTIwcGFpbnRpbmd8ZW58MHx8MHx8fDA%3D">
+								<div class="text">
+									<small>Creative</small>
+									<h6>
+										<a href="https://www.semrush.com/blog/blog-ideas/">Creative blog top ideas and to Write about.</a>
+									</h6>
+									<p>
+										We compiled a list of topics you can write about today—regardless of your niche. Plus, prompts and advice to help you come up with your own ideas.
+									</p>
+								</div>
+							</div>
+							<div class="contents">
+								<img src="https://media.istockphoto.com/id/1239528386/photo/happy-funny-teen-girl-with-pink-hair-wear-headphones-lying-in-comfortable-bed-listening-new.jpg?s=612x612&w=0&k=20&c=RR_QbAh9IoTnFHkHMlYqjFsrD5Mxp95xPfHLPyiE6so=">
+								<div class="text">
+									<small>Music</small>
+									<h6>
+										<a href="https://www.outbrain.com/help/advertisers/music-blog/">
+											How to Start Your Own Music Blog
+										</a>
+									</h6>
+									<p>
+										If you’re reading this, then you’re ready to get serious about starting your own music blog. As with everything in life...
+									</p>
+								</div>
+							</div>
+							<div class="contents">
+								<img src="https://media.istockphoto.com/id/1206835972/photo/group-of-young-people-laughing-by-seeing-into-smartphone-millennials-having-fun-with-friends.jpg?s=612x612&w=0&k=20&c=ycS1pQEmtAACAGWK3vSRRT6rh3TxN1FeBrg306vLEIM=">
+								<div class="text">
+									<small>Humor, Culture</small>
+									<h6>
+										<a href="https://www.holidify.com/pages/indian-traditions-and-culture-1331.html">
+											Humor and Culture around the INDIA.
+										</a>
+									</h6>
+									<p>
+										Indian culture and traditions are something which has now become renowned all across the world.  
+									</p>
+								</div>
+							</div>
+							<div class="contents">
+								<img src="https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=400">
+								<div class="text">
+									<small>Travel, Culture</small>
+									<h6>
+										<a href="https://www.moonhoneytravel.com/">Hikking and Traveling guide for beginner</a>
+									</h6>
+									<p>
+										Plan your hikkin trip with moonhoneytravel. Find flights, hotels, vacation rentals, things to do, and more...
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+						<div class="text-content">
+							<div class="contents">
+								<img src="https://images.pexels.com/photos/17636489/pexels-photo-17636489/free-photo-of-man-in-hat-and-with-backpack-standing-with-hills-behind.jpeg?auto=compress&cs=tinysrgb&w=400">
+								<div class="text">
+									<small>Travel</small>
+									<h6>
+										<a href="https://www.tripadvisor.in/Tourism-g297622-Kashmir_Jammu_and_Kashmir-Vacations.html">You will now get to enjoy Kashmir’s gorgeous landscapes.</a>
+									</h6>
+									<p>
+										As tourism in the Kashmir valley surges to unprecedented heights this year, the government has..
+									</p>
+								</div>
+							</div>
+							<div class="contents">
+								<img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fHw%3D">
+								<div class="text">
+									<small>Food</small>
+									<h6>
+										<a href="https://www.who.int/initiatives/behealthy/healthy-diet">A healthy diet is essential for good health and nutrition.</a>
+									</h6>
+									<p>
+										It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer...
+									</p>
+								</div>
+							</div>
+							<div class="contents">
+								<img src="https://images.unsplash.com/photo-1463592177119-bab2a00f3ccb?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGN1bHR1cmV8ZW58MHx8MHx8fDA%3D">
+								<div class="text">
+									<small>Culture</small>
+									<h6>
+										<a href="https://www.holidify.com/pages/indian-traditions-and-culture-1331.html">
+											Humor and Culture around the INDIA.
+										</a>
+									</h6>
+									<p>
+										Indian culture and traditions are something which has now become renowned all across the world.  
+									</p>
+								</div>
+							</div>
+							<div class="contents">
+								<img src="https://media.istockphoto.com/id/1130126394/photo/girl-spending-the-weekend-at-home.jpg?s=612x612&w=0&k=20&c=CxwyNyn-FnRd78MlL4C52Nq5c_xSjW2oSapCdAiNr04=">
+								<div class="text">
+									<small>Music</small>
+									<h6>
+										<a href="https://www.daysoftheyear.com/days/music-day/">World Music Day</a>
+									</h6>
+									<p>
+										From Beethoven to Taylor Swift, there’s music for everyone. Revisit your old favorites or discover new artists from different cultures on World Music Day.
+									</p>
+								</div>
+							</div>
+							<div class="contents">
+								<img src="https://media.istockphoto.com/id/700702502/photo/girlfriends-in-the-city.jpg?s=612x612&w=0&k=20&c=AM2hwTJCwyO4mDRU_mj97_2aAy55T5eGVu2T6gf6gwE=">
+								<div class="text">
+									<small>Humor, Culture</small>
+									<h6>
+										<a href="https://www.holidify.com/pages/indian-traditions-and-culture-1331.html">
+											Humor and Culture around the INDIA.
+										</a>
+									</h6>
+									<p>
+										Indian culture and traditions are something which has now become renowned all across the world.  
+									</p>
+								</div>
+							</div>
+							<div class="contents">
+								<img src="https://images.unsplash.com/photo-1473625247510-8ceb1760943f?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRyYXZlbCUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D">
+								<div class="text">
+									<small>Travel, Culture</small>
+									<h6>
+										<a href="https://www.moonhoneytravel.com/">Hikking and Traveling guide for beginner</a>
+									</h6>
+									<p>
+										Plan your hikkin trip with moonhoneytravel. Find flights, hotels, vacation rentals, things to do, and more...
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="navigation-btn">
+						<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">1</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">2</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">3</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</main>
+		<!-- end of main -->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col footer-logo">
+						<h1>PixelPluse</h1>
+					</div>
+					<div class="col footer-content">
+						<div class="about">
+							<ul>
+								<h5>About</h5>
+								<li><a href="..\my portfolio\portfolio1.html">Contact us</a></li>
+								<li><a href="..\my portfolio\portfolio1.html">Portfolio</a></li>
+								<li><a href="..\my portfolio\portfolio1.html">Services</a></li>
+								<li><a href="..\my portfolio\portfolio1.html">Works</a></li>
+							</ul>
+						</div>
+						<div class="project">
+							<ul>
+								<h5><a href="#">Project</a></h5>
+								<li><a href="#">Dashboards</a></li>
+								<li><a href="#">Calculater</a></li>
+								<li><a href="#">Clone Webflow</a></li>
+								<li><a href="#">Social Media webites</a></li>
+							</ul>
+						</div>
+						<div class="social-media">
+							<h5>Social media</h5>
+							<ul>
+								<li><i class="email-open bi bi-envelope"></i></li>
+								<li><a href="https://instagram.com/ashishekka3301?igshid=MzNlNGNkZWQ4Mg=="> <i class="bi bi-instagram"></i></a></li>
+								<li><a href="https://youtube.com/@snowYY8339?si=ctpfS4iYAjlZBohC"><i class="bi bi-linkedin"></i></a></li>
+								<li><a href="https://youtube.com/@snowYY8339?si=ctpfS4iYAjlZBohC"><i class="bi bi-youtube"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+		<!-- scripting -->
+		<script src="blog.js"></script>
+	</body>
+	</html>
